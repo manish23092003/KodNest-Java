@@ -7,7 +7,14 @@
         {
             "type": "jdk",
             "request": "launch",
-            "name": "Launch Java App"
+            "name": "Launch Current File",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch WelcomeToJava",
+            "mainClass": "track/M01-understanding-java/T01-programming-languages-and-java/M01-T01-ST01-L-welcome-to-java-track/work/src/WelcomeToJava.java"
         },
         {
             "name": "Launch Java: Continuous Mode",
